@@ -1,0 +1,19 @@
+<html>
+    <body>
+        <div onmousedown="mDown(this)" onmouseup="mUp(this)" style="background-color:pink; height: 40px; width: 80px; padding: 20px;">
+            click me
+        </div>
+        <script>
+            
+            function mDown(obj) { 
+                obj.style.backgroundColor="blue"; 
+                obj.innerHTML = "Release Me";
+            }
+            
+            function mUp(obj) { 
+                obj.style.backgroundColor="#D94A38"; 
+                obj.innerHTML="Thank You";
+            }
+        </script>    
+    </body>
+</html>
