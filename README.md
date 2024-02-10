@@ -11,8 +11,7 @@ This repository will include various projects, exercises, and experiments relate
 2. **JavaScript Practice:** Scripts, interactive elements, and dynamic content experiments.
 3. **Frontend Frameworks:** Projects involving libraries like React.
 4. **Backend Development:** Server-side scripts, databases, and server configurations.
-5. **Full-Stack Projects:** Integration of frontend and backend technologies to create functional web applications.
-6. **Additional Resources:** Links, articles, and tutorials that have been helpful in my learning journey.
+5. **Additional Resources:** Links, articles, and tutorials that have been helpful in my learning journey.
 
 Feel free to explore the repository and provide feedback or suggestions. Let's learn and grow together in the realm of web development!
 
