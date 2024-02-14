@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 100px;
+            margin: 200px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .loader{
+            height: 100px;
+            width: 100px;
+            border:9px solid rgb(230, 222, 222);
+            border-radius: 50%;
+            border-right-color:rgb(57, 154, 234);
+            animation: loader-icon 1s ease-out infinite ;
+        }
+
+        @keyframes loader-icon {
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="loader">
+
+    </div>
+</body>
+</html>
