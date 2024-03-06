@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.main_box {
+    background-image: url(photo.jpg);
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+
+.btn_one {
+    color: white;
+    font-size: 33px;
+    font-weight: bold;
+    margin-left: 10px;
+     position: absolute;
+    line-height: 60px;
+    padding-left: 10px;
+    margin-top: 0px;
+    z-index: 1;
+}
+
+.sidebar_menu {
+    height: 100vh;
+    position: fixed;
+    width: 20vw;
+    background-color: rgb(255, 255, 255, 0.1);
+    border: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    left: -300px;
+    transition: all 0.3s ease;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    padding-left: 15px;
+    font-size: 23px;
+}
+
+.sidebar_menu .logo a {
+    text-decoration: none;
+    color: white;
+    padding-left: 18px;
+    font-size: 30px;
+}
+
+.sidebar_menu .logo {
+    position: absolute;
+    width: 100%;
+    line-height: 60px;
+    padding-left: 45px;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 0px;
+}
+
+.main_box .menu {
+    color: white;
+    padding: 35px 36px;
+}
+
+.main_box .menu li {
+    margin-top: 25px;
+}
+
+.social_media ul {
+    margin: 0 50px;
+}
+
+.social_media ul a {
+    padding: 0 10px;
+    color: rgb(176, 169, 169);
+    font-size: 25px
+}
+
+.main_box #check {
+    display: none;
+}
+
+.main_box .menu li:hover {
+    /* font-size: 20px; */
+    transition: 0.5s ease-out;
+    box-shadow: 0 2px 4px rgba(255,255,255,0.5);
+}
+
+.main_box .menu a:hover {
+    /* font-size: 26px; */
+    transition: 0.5s ease-out;
+    /* box-shadow: 0 2px 4px rgba(255,255,255,0.5); */
+}
+
+/* .btn_one label:hover {
+    font-size: 40px;
+} */
+
+
+.sidebar_menu .btn_two {
+    padding-left: 281px;
+    margin-top: 32px;
+    font-size: 26px;
+    position: absolute;
+}
+
+.social_media ul a:hover {
+    font-size: 25px;
+    color: white;
+    opacity: 1;
+    transition: .3s ease-out;
+}
+
+#check:checked ~ .sidebar_menu {
+    left: 0;
+}
+
+#check:checked ~ .sidebar_menu .btn_two{
+    opacity: 1;
+    margin-top: 12px;
+}
+
+.menu ul{
+    list-style: none;
+    padding: 10px;
+}
+
+.menu ul li{
+    padding: 7px 0px;
+}
